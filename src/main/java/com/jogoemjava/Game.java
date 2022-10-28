@@ -10,6 +10,8 @@ public class Game extends Canvas implements Runnable {
     public static JFrame frame;
     private Thread thread;
     private boolean isRunning = true;
+
+    //Tamanho da Tela
     private final int WIDTH = 160;
     private final int HEIGHT = 120;
     private final int SCALE = 4;
